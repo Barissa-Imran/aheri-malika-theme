@@ -1,0 +1,115 @@
+:root {
+  --color-main: #1f3a48;
+  --color-secondary: #e2dfd8;
+  --color-title: #3a1f54;
+  --color-lines: #d8d4cc;
+  --color-other: #00a651;
+}
+
+html body {
+  background-color: #fff !important;
+}
+
+.aheri__navbar {
+  position: unset !important;
+  border-bottom: 1px solid var(--color-lines);
+}
+
+.aheri__navbar-links a,
+.aheri__navbar-involved a {
+  color: var(--color-main) !important;
+}
+
+.aheri__navbar-links {
+    text-shadow: none !important;
+}
+
+.aheri__navbar-smallscreen #menuButton {
+    color: var(--color-main) !important;
+}
+
+.about-header {
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-heading {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 80px;
+  color: var(--color-title);
+}
+
+.about-heading_sub {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  color: var(--color-title);
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 25px;
+  color: var(--color-main);
+}
+
+section article {
+  padding: 5rem 2rem;
+}
+
+.about-vision_description {
+  padding-right: 6rem !important;
+}
+
+.about-mission_description {
+  padding-left: 6rem !important;
+}
+
+.about-ourWork_description {
+  padding-right: 6rem !important;
+}
+
+.about-thematic {
+  background: var(--color-secondary);
+  padding: 0 10rem;
+  padding-bottom: 4rem;
+}
+
+.accordion-header button {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-main);
+}
+
+.accordion-body {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 25px;
+  color: var(--color-main);
+  text-align: justify;
+}
+
+@media screen and (max-width: 850px) {
+  .about-thematic {
+    padding: 2rem;
+  }
+
+  .about-vision_description {
+    text-align: justify;
+  }
+
+  .about-mission {
+    flex-direction: column-reverse;
+  }
+
+  .about-mission_description {
+    padding: 0 !important;
+    text-align: justify;
+  }
+
+  .about-ourWork_description {
+    padding: 0 !important;
+    text-align: justify;
+  }
+}

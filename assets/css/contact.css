@@ -1,0 +1,112 @@
+:root {
+  --color-main: #1f3a48;
+  --color-secondary: #e2dfd8;
+  --color-title: #3a1f54;
+  --color-lines: #d8d4cc;
+  --color-other: #00a651;
+}
+
+.aheri__navbar {
+  position: unset !important;
+}
+
+.contact-hero {
+  height: 100vh;
+  width: 100%;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-hero_heading {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 53px;
+  color: #ffffff;
+}
+
+/* .contact-hero_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.contact-hero_sub {
+  font-weight: 700;
+}
+
+.contact-hero_info-item,
+.contact-hero_info-item a {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.contact-hero_info-item a:hover {
+  color: var(--color-other);
+}
+
+.phone a {
+  text-align: left !important;
+}
+
+.contact-hero_info-item img {
+  width: 110px;
+}
+
+.contact-content {
+  background: var(--color-secondary);
+  min-height: 100vh;
+  padding: 3rem 3rem 6rem 3rem;
+}
+
+.contact-message_heading {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--color-title);
+}
+
+.contact-message_text {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 30px;
+}
+
+.contact-message iframe {
+  margin-top: 3rem;
+}
+
+.contact-form form {
+  margin-top: 10rem;
+  padding: 2rem;
+}
+
+.contact_form-label {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 30px;
+  color: var(--color-main);
+}
+
+.contact-btn {
+  background: var(--color-other) !important;
+  color: #fff !important;
+  font-size: 1.5rem !important;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 850px) {
+  .contact-hero_heading {
+    font-size: 32px;
+  }
+
+  .contact-hero_info-item {
+    margin: 2rem !important;
+  }
+  .contact-hero_info-item img {
+    width: 110px;
+  }
+}
