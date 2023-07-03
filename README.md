@@ -1,6 +1,6 @@
 # Malika Theme
 
-![screenshot](https://github.com/Barissa-Imran/aheri-malika-theme/assets/74467681/8affd93e-ebea-49f1-9ee6-7897ac793c20)
+<img src="https://github.com/Barissa-Imran/aheri-malika-theme/assets/74467681/8affd93e-ebea-49f1-9ee6-7897ac793c20" alt="Aheri"/>
 
 
 **Theme Name:** Malika
