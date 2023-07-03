@@ -2,7 +2,7 @@
       <section class="action-container">
         <form action="" method="post">
           <p class="action-header">Subscribe</p>
-          <input type="text" placeholder="ENTER YOUR EMAIL ADDRESS" />
+          <input type="email" placeholder="ENTER YOUR EMAIL ADDRESS" />
           <button type="submit">SUBMIT</button>
         </form>
       </section>
@@ -26,7 +26,7 @@
           <div class="col">
             <h3 class="footer-header">Navigate</h3>
             <?php
-            
+
             wp_nav_menu(
                 array(
                     'theme_location' => 'footer',

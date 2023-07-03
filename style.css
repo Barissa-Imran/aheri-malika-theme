@@ -5,7 +5,7 @@ Author: Barrylabs
 Author URI: https://github.com/Barissa-Imran
 Description: This theme was designed specifically for AHERI to take advantage of wordpress
 Tags: NGO, AHERI, Barrylabs, custom-colors, custom-background, custom-logo, feature-images,full-width-template, accessibility-ready, responsive
-Version: 0.1
+Version: 0.2
 Requires at least: 5.0
 Tested up to: 5.4
 Requires PHP: 7.0
@@ -56,6 +56,11 @@ a {
   top: 0;
   left: 0;
   right: 0;
+}
+
+/* styles for wp-dropdown */
+.menu-item-has-children .sub-menu a {
+  font-size: 1.8rem !important;
 }
 
 .aheri__navbar-logo {

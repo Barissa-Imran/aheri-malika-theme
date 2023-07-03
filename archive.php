@@ -9,7 +9,15 @@ Template Name: archive Template
 <main>
       <section class="journal-hero" style="background: url(<?php echo get_template_directory_uri(); ?>/assets/journal/journal-image.jpg);">
         <div class="journal-overlay">
-          <h2 class="journal-heading">Journal</h2>
+          <h2 class="journal-heading">
+            <?php
+            if('malika_event' == get_post_type()) {
+              echo "Events";
+            } else {
+              echo "Journal";
+            }
+            ?>
+          </h2>
         </div>
       </section>
       <section class="journal-content">
@@ -44,7 +52,10 @@ Template Name: archive Template
           ></div>
           <div class="aside-text_container">
             <p class="aside-text">WANT TO ATTEND OUR EVENTS?</p>
-            <a href="#contact" class="aside-link"> Know More > </a>
+            <a href="
+            <?php
+            get_post_type_archive_link('malika_event');
+            ?>" class="aside-link"> Know More > </a>
           </div>
         </div>
       </section>

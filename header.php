@@ -81,8 +81,15 @@
      -->
 
   </head>
-  <body>
+  <body class="">
     <header>
+      <?php
+      // Display active event
+      if (function_exists('malika_events_display_active_event')) {
+          malika_events_display_active_event();
+
+      }
+      ?>
         <nav class="aheri__navbar">
           <div>
             <?php
@@ -91,7 +98,7 @@
                 $logo = wp_get_attachment_image_src($custom_logo_id);
             }
             ?>
-            <a href="<?php echo get_home_url(); ?>" class="aheri__navbar-logo">
+            <a href="<?php echo get_home_url(); ?>" class="aheri__navbar-logo" title="AHERI Home">
               <img
                 class=""
                 src="<?= $logo[0] ?>"
@@ -111,9 +118,13 @@
 
           ?>
           <div class="aheri__navbar-involved">
-            <a href="#getinvolved">
-              <i class="bi bi-plus"></i>
-              Get Involved
+            <a href="
+            <?php
+            echo get_post_type_archive_link('malika_event');
+            ?>"
+            title="Events">
+              <i class="bi bi-calendar-event"></i>
+              Events
             </a>
           </div>
 
@@ -135,12 +146,24 @@
                 <i class="bi bi-x-lg"></i>
               </button>
               <?php
-          wp_nav_menu(
-            array(
-              'theme_location' => 'primary',
-              'container' => 'ul',
-              'container_class' => 'aheri__navbar-smallscreen_links',
-              'items_wrap' => '<ul id="" class="aheri__navbar-smallscreen_links">%3$s</ul>',
+
+              $link = get_post_type_archive_link('malika_event');
+
+              wp_nav_menu(
+                array(
+                  'theme_location' => 'primary',
+                  'container' => 'ul',
+                  'container_class' => 'aheri__navbar-smallscreen_links',
+                  'items_wrap' => '
+            <ul id="menuLink" class="aheri__navbar-smallscreen_links">
+              <li>
+                <a href="'.$link.'" title="Events">
+                <i class="bi bi-calendar-event"></i>
+                  Events
+                </a>
+            </li>
+            %3$s
+          </ul>',
             )
           );
           ?>

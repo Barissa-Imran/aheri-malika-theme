@@ -55,39 +55,11 @@ Template Name: Front-page Template
             Our Story
           </h1>
           <article class="content-story_text">
+            The overriding goal of
             <span class="org"
               >Africa higher education research institute (AHERI)</span
             >
-            is a non-governmental organization that focuses on research with a
-            view of making higher education relevant to sustainable development
-            in Africa. It does this through hosting conferences, colloquia and
-            high-level discussions which bring together researchers to turn
-            ideas into action. The demand for higher education in Africa far
-            outweighs the spaces available in the higher education institutions.
-            The situation has partly resulted from the disproportionate increase
-            of primary and secondary enrolment and completion rates compared to
-            limited increase of higher education spaces. Further, Africa has the
-            highest growth rate of enrolment in higher education compared to
-            other areas of the world. If the situation is not managed then
-            Africa will remain a paradox of great knowledge resource but limited
-            development. The situation has been compounded by the fact that
-            higher education as a field of study and profession is still new in
-            most Africa higher education sector. The unique context of the
-            challenges<br />
-            <span class="special">
-              <span
-                >facing the countries in Africa requires research on the
-                circumstances with a view of developing local solutions. This
-                will not only help in solving the present challenges in
-                management of higher education but provides an opportunity for
-                the higher education institutions to act as catalysts in
-                providing solutions to developmental challenges.</span
-              >
-              <span>
-                Convening high-level stakeholder engagements/conferences and
-                colloquia.
-              </span>
-            </span>
+            is to take stock of emerging issues in higher education in Africa with a view to addressing them through innovative approaches, collaborative practice, and action research. This is achieved through experienced practitioners (academics), early career researchers, relevant governmental and non-governmental agencies, and the industry working closely to identify, characterize, and remedy challenges and trends that undermine the potential of higher education in Africa.<br />
           </article>
           <div class="content-line_deco"></div>
         </div>
@@ -129,64 +101,75 @@ Template Name: Front-page Template
         <div class="content-green_deco2"></div>
         <div class="content-who row">
           <div class="content-who_container col-md-6">
-            <h1 class="content-who_header">Who we are</h1>
+            <h1 class="content-who_header">What we do</h1>
             <p class="content-who_text">
-              Africa Higher Education Research Institute (AHERI) organizes
-              annual conferences that brings together higher education
-              institutions, researchers, policy actors and industry players to
-              reflect on the contributions, challenges and opportunities for
-              innovation geared towards achievement of sustainable development
-              in line with SDG 4 - Quality Education.
+              <ol type="I">
+                <li>Convene workshops, seminars, and conferences on African higher education</li>
+                <li>Conduct action research on higher education issues</li>
+                <li>Provide consultancy services (see focus areas below)</li>
+                <li>Train fellows on Research Methodology and Grant Writing</li>
+                <li>Publish a biennial peer reviewed issue of AHERI Journal</li>
+              </ol>
             </p>
-            <span class="subs"><b>Activities</b></span>
+            <span class="subs"><b>Focus Areas</b></span>
             <ul>
               <li>
-                Organize conferences to increase discourse and debate on
-                thematic areas of concern.
+                Funding and resource management in Higher Education (HE)
               </li>
               <li>
-                Develop and carry out research projects for clients with common
-                ideals of making higher education relevant to world of work and
-                society.
+                Access and equity issues in HE
               </li>
               <li>
-                Facilitate and promote publications on higher education research
+                Quality and relevance in HE
               </li>
               <li>
-                Organize public debates and produce position papers on current
-                and critical affairs of the society.
+                Research activities in HE
               </li>
               <li>
-                Facilitate scholarship and support for masters and doctoral
-                studies for Africans.
+                Access to technology
               </li>
               <li>
-                Facilitate scholarship and support for masters and doctoral
-                studies for Africans.
+                Opportunities for collaboration and partnership
               </li>
+              <li>
+                Curriculum formulation and implementation in HE
+              </li>
+              <li>Program specialization, orientation, and differentiation</li>
+              <li>Entrenching African epistemologies in African universities</li>
+              <li>Governance systems in HE</li>
+              <li>The theory-practice divide</li>
+              <li>Skills-competencies match/mismatch</li>
+              <li>Transition from school to work</li>
+              <li>Regionalization and internationalization</li>
+              <li>Sector reforms in HE</li>
             </ul>
             <span><b>Objectives</b></span
             ><br />
             <span
               >AHERI set up the below objectives to achieve its mission in
-              solving problems identified in the Higher Education:</span
+              solving problems identified in Higher Education:</span
             >
             <ol>
               <li>
-                To promote and Support networking among higher education
-                researchers in the region
+                Support local solutions to higher education challenges through action research
               </li>
-              <li>To identify pertinent issues affecting higher education</li>
+              <li>Build research capacity of targeted fellows and their institutions through seminars, workshops, and conferences</li>
               <li>
-                To carry out relevant research aimed at improving higher
-                education
+                Organize and coordinate intersectoral engagement involving industry, governmental and non-governmental agencies and the academia.
               </li>
-              <li>To publish and document information on higher education</li>
+              <li>Deepen knowledge on various aspects of higher education in Africa</li>
               <li>
-                To advocate for the implementation of the research findings
-                through influencing decision making within the higher education
-                sector towards general development in African States.
+                Inform policy formulation, planning, implementation, and monitoring in the context of higher education in Africa.
               </li>
+              <li>Provide an institutional forum for debating, disseminating, and communicating research findings on emerging issues in higher education.</li>
+              <li>Entrench and intensify multidisciplinary research initiatives</li>
+              <li>Provide training and support services to early career researchers</li>
+              <li>Publish a biennial peer reviewed issue of AHERI Journal</li>
+            </ol>
+            <span><b>At station support services</b></span>
+            <ol>
+              <li>English language editing and proofreading</li>
+              <li>Academic writing</li>
             </ol>
           </div>
           <div class="content-who_img col-md-12 col-lg-4 ">
@@ -240,7 +223,7 @@ Template Name: Front-page Template
               through influencing decision making within the higher education
               sector towards general development in African States.
             </p>
-            <a href="#Event" class="event-button">View Events</a>
+            <a href="<?php echo get_post_type_archive_link('malika_event'); ?>" class="event-button">View Events</a>
           </div>
         </div>
       </section>

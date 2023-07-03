@@ -58,6 +58,8 @@ function malika_register_styles() {
         wp_enqueue_style('malika-404-style', $template_directory_uri . "/assets/css/about.css", array(), $version, 'all');
     } elseif (is_page_template( 'page.php' )) {
         wp_enqueue_style('malika-page-style', $template_directory_uri . "/assets/css/about.css", array(), $version, 'all');
+    } elseif (is_page_template( 'team.php' )) {
+        wp_enqueue_style('malika-team-style', $template_directory_uri . "/assets/css/team.css", array(), $version, 'all');
     }
 }
 
@@ -66,8 +68,8 @@ add_action('wp_enqueue_scripts', 'malika_register_styles');
 function malika_register_scripts() {
 
     wp_enqueue_script( 'malika-jquery', 'https://code.jquery.com/jquery-3.2.1.slim.min.js', array(), '3.2.1', true);
-    wp_enqueue_script( 'malika-popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js', array(), '1.12.9', true);
-    wp_enqueue_script( 'malika-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js', array(), '4.0.0', true);
+    // wp_enqueue_script( 'malika-popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js', array(), '1.12.9', true);
+    wp_enqueue_script( 'malika-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js', array(), '4.0.0', true);
     wp_enqueue_script( 'malika-homestyle', get_template_directory_uri() . "/assets/js/index.js", array(), '1.0.0', true);
 
 }
