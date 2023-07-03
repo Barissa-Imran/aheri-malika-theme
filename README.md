@@ -29,5 +29,7 @@
 
 **Text Domain:** Malika
 
+> Be sure to also make use of the malika event plugin [here](https://github.com/Barissa-Imran/malika-events-plugin/)
+
 This theme, unlike wordpress has a **CC-BY-NC-SA** license.
 Use is restricted but be share to make something cool and have fun with it.
