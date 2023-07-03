@@ -1,30 +1,33 @@
 # Malika Theme
 
-Theme Name: Malika
+![screenshot](https://github.com/Barissa-Imran/aheri-malika-theme/assets/74467681/8affd93e-ebea-49f1-9ee6-7897ac793c20)
 
-Theme URI: [https://github.com/Barissa-Imran/aheri](https://github.com/Barissa-Imran/aheri)
 
-Author: Barrylabs
+**Theme Name:** Malika
 
-Author URI: [https://github.com/Barissa-Imran](https://github.com/Barissa-Imran/)
+**Theme URI:** [https://github.com/Barissa-Imran/aheri](https://github.com/Barissa-Imran/aheri)
 
-Description: This theme was designed specifically for AHERI to take advantage of wordpress
+**Author:** Barrylabs
 
-Tags: NGO, AHERI, Barrylabs, custom-colors, custom-background, custom-logo, feature-images,full-width-template, accessibility-ready, responsive
+**Author URI:** [https://github.com/Barissa-Imran](https://github.com/Barissa-Imran/)
 
-Version: 0.1
+**Description:** This theme was designed specifically for AHERI to take advantage of wordpress
 
-Requires at least: 5.0
+**Tags:** NGO, AHERI, Barrylabs, custom-colors, custom-background, custom-logo, feature-images,full-width-template, accessibility-ready, responsive
 
-Tested up to: 5.4
+**Version:** 0.1
 
-Requires PHP: 7.0
+**Requires at least:** 5.0
 
-License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+**Tested up to:** 5.4
 
-License URI: [http://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+**Requires PHP:** 7.0
 
-Text Domain: Malika
+**License:** Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 
-This theme, unlike wordpress has a CC-BY-NC-SA license.
+**License URI:** [http://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+**Text Domain:** Malika
+
+This theme, unlike wordpress has a **CC-BY-NC-SA** license.
 Use is restricted but be share to make something cool and have fun with it.
